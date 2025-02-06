@@ -2,10 +2,12 @@ package miPrincipal;
 
 public class Principal {
     public String getGreeting() {
-        return "Hello World!";
+        return "Ey que tal guapisimos aqui vegeta777 en un nuevo directo de zona minecraft!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new Principal().getGreeting());
+        Principal principal = new principal();
+        String saludo = principal.getGreeting();
+        System.out.println(saludo);
     }
 }
